@@ -1,0 +1,21 @@
+{
+  "name": "express-input-audit",
+  "version": "1.0.0",
+  "private": true,
+  "type": "commonjs",
+  "workspaces": ["services/*"],
+  "scripts": {
+    "start": "node services/api-gateway/src/app.js"
+  },
+  "dependencies": {
+    "celebrate": "^15.0.3",
+    "express": "^4.21.2",
+    "express-validator": "^7.2.1",
+    "joi": "^17.13.3",
+    "multer": "^1.4.5-lts.1",
+    "pg": "^8.13.1",
+    "redis": "^4.7.0",
+    "sequelize": "^6.37.5",
+    "zod": "^3.24.1"
+  }
+}
