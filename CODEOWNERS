@@ -1,0 +1,6 @@
+/services/api-gateway/                     @gateway-team
+/services/uploads-api/                     @uploads-team
+/services/admin-api/                       @admin-team
+/services/orders-api/                      @orders-team
+/services/orders-api/src/routes/orders.js  @orders-routes-team
+/services/orders-api/src/routes/           @orders-web-team
