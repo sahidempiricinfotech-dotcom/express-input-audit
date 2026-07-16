@@ -1,0 +1,13 @@
+{
+  "name": "@express-input-audit/api-gateway",
+  "version": "1.0.0",
+  "private": true,
+  "main": "src/app.js",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^4.21.2",
+    "express-validator": "^7.2.1",
+    "pg": "^8.13.1",
+    "zod": "^3.24.1"
+  }
+}
